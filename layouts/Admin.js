@@ -16,7 +16,7 @@ import routes from "routes.js";
 import styles from "assets/jss/nextjs-material-dashboard/layouts/adminStyle.js";
 
 import bgImage from "assets/img/sidebar-2.jpg";
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/bless_white.png";
 
 let ps;
 
@@ -79,7 +79,7 @@ export default function Admin({ children, ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Creative Tim"}
+        logoText={"Studio Bless"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}

@@ -13,7 +13,9 @@ import styles from "assets/jss/nextjs-material-dashboard/components/tableStyle.j
 export default function CustomTable(props) {
   const useStyles = makeStyles(styles);
   const classes = useStyles();
-  const { tableHead, tableData, tableHeaderColor } = props;
+
+  const { tableHead, tableData, tableHeaderColor} = props;
+  
   return (
     <div className={classes.tableResponsive}>
       <Table className={classes.table}>
@@ -54,7 +56,7 @@ export default function CustomTable(props) {
 }
 
 CustomTable.defaultProps = {
-  tableHeaderColor: "gray",
+  tableHeaderColor: "rose",
 };
 
 CustomTable.propTypes = {
